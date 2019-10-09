@@ -1,10 +1,17 @@
+#   Name :      ANDREW COBB
+#   GitHub :    github.com/AB_Cobb
+#   StuNum :    101142044
 language: node_js
 node_js:
   - 10.9.0
 
 cache: npm
 
-before_install:
+before_instal
+  - mkdir public
+  - ls -la
+
+install:
   - ls -la
   - npm install 
   - ls -la
